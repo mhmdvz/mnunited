@@ -1,0 +1,191 @@
+/* global */
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+* {
+    margin: 0%;
+}
+/* ========================================================================================================== */
+
+
+.header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url(images/old\ traford.jfif) #cccccc center no-repeat;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    border-bottom: 10px solid #ffffff;
+    background-size: cover;
+    color: #e40202;
+}
+
+.logo {
+   width: 200px;
+   height: 200px;
+   margin-top: 70px;
+}
+
+.header-text {
+    padding-top: 150px;
+    color: whitesmoke;
+    text-shadow: 2px 4px 5px black;
+    font-size: 50px;
+    padding: 10px;
+}
+
+
+ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    border-bottom: 5px solid white;
+  }
+  
+  li {
+    float: left;
+  }
+
+  .li2 {
+    display: block;
+    color: #cccccc;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 340px;
+  }
+  
+  li a {
+    display: block;
+    color: #cccccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  li a.active {
+    color: #cccccc;
+    background-color: #9D0208;
+  }
+
+  .logo-menu {
+      margin-right: 10px;margin-left: 10px;
+      float: left;
+      padding-top: 8px;
+      width: 30px;
+      height: 30px;
+  }
+
+  div.gallery {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    margin-top: 50px;
+    margin-right: 10px;
+    float: left;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgb(255, 0, 0) 1px 1px 10px;
+  }
+
+  .gallery {
+      border-bottom: 10px solid rgb(255, 0, 0);
+  }
+  
+  div.gallery:hover {
+    border: 0px solid #777;
+    box-shadow: rgb(255, 0, 0) 1px 1px 20px;
+    padding: 5px;
+    transition: 1s;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .legend {
+      padding: 10px;
+      margin-top: 170px;
+      margin-left: 40px;
+      margin-right: 50px;
+      color: white;
+      float: left;
+      overflow: hidden;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-shadow: 2px 2px 10px red;
+      border-radius: 10px;
+  }
+
+  .success {
+    position: relative;
+    color: rgb(255, 255, 255);
+    float: right;
+    border-left: 10px solid #ffffff;
+    background-color: white;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    width: auto;
+    height: 394px;
+    text-shadow: 5px 5px 10px black;
+  }
+
+  .success:hover {
+    text-shadow: 3px 3px 4px black;
+    border-right: 20px white solid;
+    transition: 1s;
+  }
+
+  .ronaldo-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 170px;
+    right: 12%;
+  }
+
+  .audio-setting {
+    position: relative;
+    background-color: rgb(114, 0, 0);
+    width: 100%;
+    height: 200px;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    float: none;
+    margin-top: 395px;
+  }
+
+  .audio-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    color: white;
+    float: none;
+    right: 10%;
+    top: 70px;
+    text-shadow: 5px 5px 10px black;
+  }
+
+  .audio-file {
+    position: absolute;
+    top: 76px;
+    left: 5%;
+  }
+  
